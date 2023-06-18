@@ -11,21 +11,33 @@ function Services() {
             <div className="servicesGrids d-flex flex-column gap-5 d-sm-grid">
                 <div className="allCenter servicesGrid1">
                     <span className='highlight'>HI SEO</span>
+                    <div className="gridImg py-3 col-5">
+                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
+                    </div>
                     <h2>Seo To Boost It On Sky</h2>
                     <span>Hi am On Sky and Flying WooHooooo</span>
                 </div>
                 <div className="allCenter servicesGrid2">
                     <span className='highlight'>HI SEO</span>
+                    <div className="gridImg py-3 col-5">
+                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
+                    </div>
                     <h2>Seo To Boost It On Sky</h2>
                     <span>Hi am On Sky and Flying WooHooooo</span>
                 </div>
                 <div className="allCenter servicesGrid3">
                     <span className='highlight'>HI SEO</span>
+                    <div className="gridImg py-3 col-5">
+                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
+                    </div>
                     <h2>Seo To Boost It On Sky</h2>
                     <span>Hi am On Sky and Flying WooHooooo</span>
                 </div>
                 <div className="allCenter servicesGrid4">
                     <span className='highlight'>HI SEO</span>
+                    <div className="gridImg py-3 col-5">
+                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
+                    </div>
                     <h2>Seo To Boost It On Sky</h2>
                     <span>Hi am On Sky and Flying WooHooooo</span>
                 </div>

@@ -1,3 +1,5 @@
+import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 
 function TextContent({data}) {
@@ -7,7 +9,7 @@ function TextContent({data}) {
         <span className="highlight">{data.highlight}</span>
         <h2 className='highlightHeading' dangerouslySetInnerHTML={{ __html: data.heading }} />
         {data.text &&  <span className='col-sm-8 m-auto'>{data.text}</span>}
-        {data.btnText && <button className="btn btn-trasparrent border-primary">{data.btnText}</button>}
+        {data.btnText && <button className="btn btn-trasparrent border-primary">{data.btnText} <FontAwesomeIcon icon={faArrowRightToBracket} style={{color: "#000000",paddingLeft:"5px"}} /></button>}
     </div>
   )
 }

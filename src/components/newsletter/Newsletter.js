@@ -17,7 +17,7 @@ function Newsletter() {
             <TextContent data={NewsletterText}/>
         </div>
         <div className="col-12">
-            <div className="w-75 my-3 m-auto allCenter">
+            <div className="my-3 m-auto allCenter">
                 <div className="content">
                     <form className="subscription">
                     <input className="add-email" type="email" placeholder="subscribe@me.now" />

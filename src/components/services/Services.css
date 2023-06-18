@@ -8,7 +8,7 @@
 }
 .servicesGrids {
     grid-template-columns: 1fr 0.2fr 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 0.2fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
