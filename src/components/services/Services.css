@@ -1,0 +1,19 @@
+/* .services{
+    height: 2000px;
+} */
+.servicesLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicesGrids {
+    grid-template-columns: 1fr 0.2fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.servicesGrid1 { grid-area: 2 / 1 / 5 / 2; }
+.servicesGrid2 { grid-area: 1 / 3 / 4 / 4; }
+.servicesGrid3 { grid-area: 6 / 1 / 9 / 2; }
+.servicesGrid4 { grid-area: 5 / 3 / 8 / 4; }

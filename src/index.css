@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Ubuntu',sans-serif;
+}
+.allCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.xCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.yCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.xCenterContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.highlight{
+  color: blue;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.highlightHeading{
+  font-size: 45px;
+}
