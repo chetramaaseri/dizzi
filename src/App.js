@@ -1,12 +1,12 @@
 import Clients from "./components/clients/Clients";
 import HeroHorizontal from "./components/hero/horizontal/HeroHorizontal";
+import Footer from "./components/layout/footer/Footer";
 import Navbar from "./components/layout/navbar/Navbar";
 import Newsletter from "./components/newsletter/Newsletter";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 import WhyUs from "./components/whyUs/WhyUs";
-import Footer from "./components/layout/footer/Footer";
 function App() {
   return (
     <>
