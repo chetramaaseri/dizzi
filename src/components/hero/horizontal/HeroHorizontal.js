@@ -1,5 +1,6 @@
 import React from 'react'
 import "./HeroHorizontal.css"
+import HeroText from '../HeroText'
 // import Vector from  "../../layout/vector/Vector"
 function HeroHorizontal() {
     // const topVectorData = {
@@ -27,13 +28,10 @@ function HeroHorizontal() {
         {/* <Vector vectorData={topVectorData} />
         <Vector vectorData={topVectorData} />
         <Vector vectorData={rightVectorData} /> */}
-        <div className="col-12">
-            <h1 className='text-center'>We Are<br></br>building Brands<br></br> Online</h1>
-            <p className='w-75 m-auto mt-3 text-center'>we Ae here to build you up to high in sky and build to to high on earth and take advantagesd of core of world from space and i dont know what iam writting but react is awesome</p>
-            <div className="m-auto text-center mt-4 mb-4">
-                <button className="btn btn-primary rounded-pill">Let's Get Started</button>
-            </div>
-        </div>
+        <HeroText orientation={{
+            main : "col-12 text-center",
+            content : "w-75 m-auto mt-3"
+        }} />
         <div className="col-12 heroHorizontalImages">
             <div className="row w-75 m-auto gap-3 gap-sm-0">
                 <div className="col-sm-4">

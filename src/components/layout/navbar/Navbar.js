@@ -1,17 +1,17 @@
 import React from "react";
 import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   const config = {
     logo: "",
     navlinks: [
       {
         linkText: "Home",
-        linkAddress: "#",
+        linkAddress: "/",
       },
       {
-        linkText: "Home",
-        linkAddress: "#",
+        linkText: "What We Do",
+        linkAddress: "/whatwedo",
       },
       {
         linkText: "Home",
@@ -49,9 +49,11 @@ function Navbar() {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 gap-3 gap-lg-5">
             {config.navlinks.map((link,index) => {
               return (
-                <li key={`navlink${index}`} className="nav-item">
-                    {link.linkText}
-                </li>
+                <Link to={link.linkAddress}>
+                  <li key={`navlink${index}`} className="nav-item">
+                      {link.linkText}
+                  </li>
+                </Link>
               );
             })}
           </ul>
