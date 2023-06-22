@@ -1,0 +1,31 @@
+.heroHorizontal{
+    position: relative;
+}
+.heroHorizontal h1{
+    font-size: 60px;
+}
+.heroHorizontalImages div.col-4{
+    padding: 20px;
+}
+.heroHorizontalImages img{
+    height: auto;
+    width: 100%;
+}
+.heroHorizontalImages .starIcon{
+    position: absolute;
+    font-size: 45px;
+    display: inline-block;
+
+}
+.heroHorizontalImages .starIcon:nth-child(1){
+    top: 15px;
+    left: 50px;
+}
+.heroHorizontalImages .starIcon:nth-child(2){
+    top: 15px;
+    left: 50px;
+}
+.heroHorizontalImages .starIcon:nth-child(3){
+    top: 15px;
+    left: 50px;
+}
