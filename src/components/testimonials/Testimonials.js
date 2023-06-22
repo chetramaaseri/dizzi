@@ -10,7 +10,7 @@ function Testimonials() {
         alignment: "xCenterContent"
     }
   return (
-    <div className='row py-5 my-2'>
+    <div className='row my-2'>
         <div className="col-sm-4">
           <div className="textBoxCover w-75 m-auto">
             <TextContent data={portfolioText}/>
