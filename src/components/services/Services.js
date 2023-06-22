@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Services.css"
+import Grid4 from './Grid4/Grid4'
 function Services() {
   return (
     <div className='row services my-5 px-0 px-md-5 gap-5 gap-md-0'>
@@ -8,40 +9,9 @@ function Services() {
             <h2 className='highlightHeading'>We are Team of<br></br> Super Experienced <br></br> Hi MAn</h2>
         </div>
         <div className="col-md-6">
-            <div className="servicesGrids d-flex flex-column gap-5 d-sm-grid">
-                <div className="allCenter servicesGrid1">
-                    <span className='highlight'>HI SEO</span>
-                    <div className="gridImg py-3 col-5">
-                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
-                    </div>
-                    <h2>Seo To Boost It On Sky</h2>
-                    <span>Hi am On Sky and Flying WooHooooo</span>
-                </div>
-                <div className="allCenter servicesGrid2">
-                    <span className='highlight'>HI SEO</span>
-                    <div className="gridImg py-3 col-5">
-                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
-                    </div>
-                    <h2>Seo To Boost It On Sky</h2>
-                    <span>Hi am On Sky and Flying WooHooooo</span>
-                </div>
-                <div className="allCenter servicesGrid3">
-                    <span className='highlight'>HI SEO</span>
-                    <div className="gridImg py-3 col-5">
-                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
-                    </div>
-                    <h2>Seo To Boost It On Sky</h2>
-                    <span>Hi am On Sky and Flying WooHooooo</span>
-                </div>
-                <div className="allCenter servicesGrid4">
-                    <span className='highlight'>HI SEO</span>
-                    <div className="gridImg py-3 col-5">
-                        <img className='w-75' src="https://abilitynet.org.uk/sites/abilitynet.org.uk/files/admin/seo-magnifying-glass.png" alt="" />
-                    </div>
-                    <h2>Seo To Boost It On Sky</h2>
-                    <span>Hi am On Sky and Flying WooHooooo</span>
-                </div>
-            </div>
+          <Grid4 orientation={{
+            main : "d-flex flex-column gap-5 d-sm-grid"
+          }}/>
         </div>
     </div>
   )
