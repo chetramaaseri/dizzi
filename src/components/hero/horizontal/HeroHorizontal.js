@@ -4,7 +4,7 @@ import HeroText from '../HeroText'
 import Vector from  "../../layout/vector/Vector"
 function HeroHorizontal() {
     const vectorHeroTopLeft = {
-        src : "http://192.168.1.5:3000/images/green-left-top.svg",
+        src : "https://dizzi.netlify.app/images/green-left-top.svg",
         height: "360px",
         width: "200px",
         position:"absolute",
@@ -13,7 +13,7 @@ function HeroHorizontal() {
         zIndex: "9991",
     }
     const vectorHeroRight = {
-        src : "http://192.168.1.5:3000/images/violet-right.svg",
+        src : "https://dizzi.netlify.app/images/violet-right.svg",
         height: "500px",
         width: "250px",
         position:"absolute",
@@ -22,7 +22,7 @@ function HeroHorizontal() {
         zIndex:"-9"
       }
     const vectorHeroLeftBottom = {
-        src : "http://192.168.1.5:3000/images/yellow-left.svg",
+        src : "https://dizzi.netlify.app/images/yellow-left.svg",
         height: "660px",
         width: "360px",
         position:"absolute",
@@ -44,13 +44,13 @@ function HeroHorizontal() {
                 <div className="col-12 heroHorizontalImages">
                     <div className="row w-75 m-auto gap-3 gap-sm-0">
                         <div className="col-sm-4">
-                            <img src="http://192.168.1.5:3000/images/bulb.png" alt="" srcSet="" />
+                            <img src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
                         </div>
                         <div className="col-sm-4 pt-0 pt-sm-5">
-                            <img className='pt-o pt-sm-5' src="http://192.168.1.5:3000/images/bulb.png" alt="" srcSet="" />
+                            <img className='pt-o pt-sm-5' src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="http://192.168.1.5:3000/images/bulb.png" alt="" srcSet="" />
+                            <img src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
                         </div>
                     </div>
                 </div>

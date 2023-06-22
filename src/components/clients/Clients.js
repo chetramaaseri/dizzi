@@ -9,7 +9,7 @@ function Clients() {
         alignment:"yCenter"
     }
     const vectorClientsLeft = {
-        src : "http://192.168.1.5:3000/images/yellow-left.svg",
+        src : "https://dizzi.netlify.app/images/yellow-left.svg",
         height: "660px",
         width: "360px",
         position:"absolute",

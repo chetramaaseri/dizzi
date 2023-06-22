@@ -10,7 +10,7 @@ function WhyUs() {
         alignment : "yCenter"
     }
     const vectorWhyUsRight = {
-        src : "http://192.168.1.5:3000/images/skyblue-right.svg",
+        src : "https://dizzi.netlify.app/images/skyblue-right.svg",
         height: "660px",
         width: "360px",
         position:"absolute",
@@ -19,7 +19,7 @@ function WhyUs() {
         zIndex:"-9"
     }
     const vectorWhyUsLeft = {
-        src : "http://192.168.1.5:3000/images/green-left.svg",
+        src : "https://dizzi.netlify.app/images/green-left.svg",
         height: "660px",
         width: "360px",
         position:"absolute",
