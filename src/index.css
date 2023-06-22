@@ -28,6 +28,9 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.mainHeading{
+  font-size: 50px;
+}
 .highlight{
   color: blue;
   font-weight: 500;
