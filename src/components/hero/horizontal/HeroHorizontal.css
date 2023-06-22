@@ -1,9 +1,6 @@
 .heroHorizontal{
     position: relative;
 }
-.heroHorizontal h1{
-    font-size: 60px;
-}
 .heroHorizontalImages div.col-4{
     padding: 20px;
 }

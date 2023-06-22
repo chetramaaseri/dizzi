@@ -8,7 +8,7 @@ import WhyUs from "../components/whyUs/WhyUs";
 
 function Home() {
   return (
-    <div className="container" style={{marginTop:"90px"}}>
+    <div className="">
         <HeroHorizontal/>
         <Services/>
         <WhyUs/>

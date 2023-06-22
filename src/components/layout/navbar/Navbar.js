@@ -16,22 +16,13 @@ function Navbar() {
       {
         linkText: "Our Services",
         linkAddress: "/ourservices",
-      },
-      {
-        linkText: "Home",
-        linkAddress: "#",
-      },
-      
-      {
-        linkText: "Home",
-        linkAddress: "#",
       }
     ],
   };
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
       <div className="container">
-        <span className="navbar-brand">
+        <span className="navbar-brand" style={{zIndex:"99999"}}>
           Dizzibooster
         </span>
         <button
@@ -49,7 +40,7 @@ function Navbar() {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 gap-3 gap-lg-5">
             {config.navlinks.map((link,index) => {
               return (
-                <Link to={link.linkAddress}>
+                <Link key={`link${index}`} to={link.linkAddress}>
                   <li key={`navlink${index}`} className="nav-item">
                       {link.linkText}
                   </li>

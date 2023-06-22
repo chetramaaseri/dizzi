@@ -6,7 +6,7 @@ import Portfolio from '../components/portfolio/Portfolio'
 
 function WhatWeDo() {
   return (
-    <div className="container" style={{marginTop:"90px"}}>
+    <div className="">
         <HeroVertical  />
         <Capabilities/>
         <Portfolio/>
