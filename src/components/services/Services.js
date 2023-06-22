@@ -4,7 +4,7 @@ import Grid4 from './Grid4/Grid4'
 import Vector from '../layout/vector/Vector'
 function Services() {
   const vectorServicesRight = {
-    src : "http://192.168.1.5:3000/images/skyblue-right.svg",
+    src : "https://dizzi.netlify.app/images/skyblue-right.svg",
     height: "560px",
     width: "360px",
     position:"absolute",
@@ -13,7 +13,7 @@ function Services() {
     zIndex:"-9"
   }
   const vectorServicesLeft = {
-    src : "http://192.168.1.5:3000/images/orange-left.svg",
+    src : "https://dizzi.netlify.app/images/orange-left.svg",
     height: "660px",
     width: "360px",
     position:"absolute",
