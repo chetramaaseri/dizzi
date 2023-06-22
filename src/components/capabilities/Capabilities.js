@@ -11,7 +11,7 @@ function Capabilities() {
     alignment: "yCenter"
   }
   const vectorCapabilitiesRight = {
-    src : "http://192.168.1.5:3000/images/green-left.svg",
+    src : "https://dizzi.netlify.app/images/green-left.svg",
     height: "660px",
     width: "360px",
     position:"absolute",

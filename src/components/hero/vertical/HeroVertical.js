@@ -6,7 +6,7 @@ import Vector from '../../layout/vector/Vector'
 
 function HeroVertical() {
   const vectorHeroLeftTop = {
-    src : "http://192.168.1.5:3000/images/yellow-left.svg",
+    src : "https://dizzi.netlify.app/images/yellow-left.svg",
     height: "360px",
     width: "200px",
     position:"absolute",
@@ -15,7 +15,7 @@ function HeroVertical() {
     zIndex: "9991",
   }
   const vectorHeroRight = {
-    src : "http://192.168.1.5:3000/images/skyblue-right.svg",
+    src : "https://dizzi.netlify.app/images/skyblue-right.svg",
     height: "660px",
     width: "200px",
     position:"absolute",

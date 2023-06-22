@@ -11,7 +11,7 @@ function Testimonials() {
         alignment: "xCenterContent"
     }
     const vectorTestimonial = {
-      src : "http://192.168.1.5:3000/images/skyblue-right.svg",
+      src : "https://dizzi.netlify.app/images/skyblue-right.svg",
       height: "660px",
       width: "360px",
       position:"absolute",

@@ -11,7 +11,7 @@ function Portfolio() {
         alignment: "yCenter"
     }
     const vectorPortfolioLeft = {
-        src : "http://192.168.1.5:3000/images/blue-right.svg",
+        src : "https://dizzi.netlify.app/images/blue-right.svg",
         height: "660px",
         width: "360px",
         position:"absolute",
