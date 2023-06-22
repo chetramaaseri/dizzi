@@ -14,8 +14,8 @@ function Navbar() {
         linkAddress: "/whatwedo",
       },
       {
-        linkText: "Home",
-        linkAddress: "#",
+        linkText: "Our Services",
+        linkAddress: "/ourservices",
       },
       {
         linkText: "Home",

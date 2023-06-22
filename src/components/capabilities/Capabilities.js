@@ -14,7 +14,7 @@ function Capabilities() {
       <TextContent data={capabilityText}/>
       <div className="col-12 mt-3">
         <Grid4 orientation={{
-          main : "d-flex flex-row"
+          main : "d-flex flex-row allCenter"
         }}/>
       </div>
     </div>

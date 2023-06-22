@@ -8,6 +8,7 @@ import Footer from "./components/layout/footer/Footer";
 import Navbar from "./components/layout/navbar/Navbar";
 import Home from "./pages/Home";
 import WhatWeDo from './pages/WhatWeDo';
+import OurServices from './pages/OurServices';
 
 
 function App() {
@@ -31,6 +32,10 @@ const appRouter = createBrowserRouter([
       {
         path: "whatwedo",
         element: <WhatWeDo/>
+      },
+      {
+        path: "ourservices",
+        element: <OurServices/>
       }
     ]
 
