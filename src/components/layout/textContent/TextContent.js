@@ -7,6 +7,7 @@ function TextContent({data}) {
   return (
     <div className={alignment}>
         <span className="highlight">{data.highlight}</span>
+        {data.img &&  <div className='w-25'><img className="w-25" src={data.img} alt="" srcSet="" /></div>}
         <h2 className='highlightHeading' dangerouslySetInnerHTML={{ __html: data.heading }} />
         {data.text &&  <span className='col-sm-8 m-auto'>{data.text}</span>}
         {data.btnText && <button className="btn btn-trasparrent border-primary">{data.btnText} <FontAwesomeIcon icon={faArrowRightToBracket} style={{color: "#000000",paddingLeft:"5px"}} /></button>}

@@ -1,12 +1,12 @@
 import React from 'react'
 
-function HeroText({orientation}) {
+function HeroText({orientation,data}) {
   return (
     <div className={orientation.main}>
-        <h1 className='mainHeading'>We Are<br></br>building Brands<br></br> Online</h1>
-        <p className={orientation.content}>we Ae here to build you up to high in sky and build to to high on earth and take advantagesd of core of world from space</p>
+        <h1 className='mainHeading' dangerouslySetInnerHTML={{ __html: data.title }} />
+        <p className={orientation.content}>{data.subTitle}</p>
         <div className="m-auto mt-4 mb-4">
-            <button className="btn btn-primary rounded-pill">Let's Get Started</button>
+            <button className="btn btn-primary rounded-pill">{data.btnText}</button>
         </div>
     </div>
   )

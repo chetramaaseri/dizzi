@@ -4,12 +4,8 @@ import '@splidejs/react-splide/css';
 import TextContent from '../layout/textContent/TextContent'
 import Vector from '../layout/vector/Vector';
 
-function Testimonials() {
-    const portfolioText = {
-        highlight : "What People Think",
-        heading: "They Said<br>We Are Amazing",
-        alignment: "xCenterContent"
-    }
+function Testimonials({data}) {
+    
     const vectorTestimonial = {
       src : "https://dizzi.netlify.app/images/skyblue-right.svg",
       height: "660px",
@@ -26,39 +22,29 @@ function Testimonials() {
         <div className='row mt-5 mb-3'>
             <div className="col-sm-4">
               <div className="textBoxCover w-75 m-auto">
-                <TextContent data={portfolioText}/>
+                <TextContent data={data.textContent}/>
               </div>
             </div>
             <div className="col-sm-8 px-md-3 py-5" >
-              <Splide options={{autoplay:"true",loop:true}} aria-label="My Favorite Images">
-                <SplideSlide>
-                  <div className="testimonial row w-75 m-auto">
-                    <div className="col-md-6 py-2">
-                      <p className='pe-md-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi facere cupiditate iste nulla aspernatur eum neque velit, nobis dolore rem error quidem deserunt reprehenderit, blanditiis obcaecati, quibusdam inventore libero?</p>
-                      <h4 className='h2 mt-3'>Nobita Kumar</h4>
-                      <h6>⭐⭐⭐⭐⭐</h6>
-                    </div>
-                    <div className="col-md-6 py-2">
-                      <p className='pe-sm-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi facere cupiditate iste nulla aspernatur eum neque velit, nobis dolore rem error quidem deserunt reprehenderit, blanditiis obcaecati, quibusdam inventore libero?</p>
-                      <h4 className='h2 mt-3'>Nobita Kumar</h4>
-                      <h6>⭐⭐⭐⭐⭐</h6>
-                    </div>
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="testimonial row w-75 m-auto">
-                    <div className="col-md-6 py-2">
-                      <p className='pe-md-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi facere cupiditate iste nulla aspernatur eum neque velit, nobis dolore rem error quidem deserunt reprehenderit, blanditiis obcaecati, quibusdam inventore libero?</p>
-                      <h4 className='h2 mt-3'>Nobita Kumar</h4>
-                      <h6>⭐⭐⭐⭐⭐</h6>
-                    </div>
-                    <div className="col-md-6 py-2">
-                      <p className='pe-sm-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi facere cupiditate iste nulla aspernatur eum neque velit, nobis dolore rem error quidem deserunt reprehenderit, blanditiis obcaecati, quibusdam inventore libero?</p>
-                      <h4 className='h2 mt-3'>Nobita Kumar</h4>
-                      <h6>⭐⭐⭐⭐⭐</h6>
-                    </div>
-                  </div>
-                </SplideSlide>
+              <Splide options={{autoplay:"true",loop:true}}>
+                {data.testimonials.map((testimonial,index)=>{
+                  return (
+                    <SplideSlide key={"testimonial"+index}>
+                      <div className="testimonial row w-75 m-auto">
+                        <div className="col-md-6 py-2">
+                          <p className='pe-md-5'>{testimonial[0].text}</p>
+                          <h4 className='h2 mt-3'>{testimonial[0].clientName}</h4>
+                          <h6>{testimonial[0].rating}</h6>
+                        </div>
+                        <div className="col-md-6 py-2">
+                          <p className='pe-md-5'>{testimonial[1].text}</p>
+                          <h4 className='h2 mt-3'>{testimonial[1].clientName}</h4>
+                          <h6>{testimonial[1].rating}</h6>
+                        </div>
+                      </div>
+                    </SplideSlide>
+                  )
+                })}
               </Splide>
             </div>
         </div>
