@@ -17,22 +17,22 @@ function OurServices() {
       grid:[
         {
           highlight:"WEB DESIGN",
-          img:"http://192.168.1.4:3000/images/web-design.png",
+          img:"https://dizzi.netlify.app/images/web-design.png",
           desc:"Amazing Web Designs With Faster Page Loads and Healthy Backend"
         },
         {
           highlight:"SEO",
-          img:"http://192.168.1.4:3000/images/seo.png",
+          img:"https://dizzi.netlify.app/images/seo.png",
           desc:"SEO Makes you shine on web without paying to google"
         },
         {
           highlight:"SOCIAL MEDIA",
-          img:"http://192.168.1.4:3000/images/social-media-icons.png",
+          img:"https://dizzi.netlify.app/images/social-media-icons.png",
           desc:"Better Reach Better Leads, Be Socially Available"
         },
         {
           highlight:"Brand Awareness",
-          img:"http://192.168.1.4:3000/images/strategy.png",
+          img:"https://dizzi.netlify.app/images/strategy.png",
           desc:"Be Loud Sounds Good, Showcase You Products to World"
         },
       ]
@@ -105,22 +105,22 @@ function OurServices() {
       grid:[
         {
           highlight:"WEB DESIGN",
-          img:"http://192.168.1.4:3000/images/web-design.png",
+          img:"https://dizzi.netlify.app/images/web-design.png",
           desc:"Amazing Web Designs With Faster Page Loads and Healthy Backend"
         },
         {
           highlight:"SEO",
-          img:"http://192.168.1.4:3000/images/seo.png",
+          img:"https://dizzi.netlify.app/images/seo.png",
           desc:"SEO Makes you shine on web without paying to google"
         },
         {
           highlight:"SOCIAL MEDIA",
-          img:"http://192.168.1.4:3000/images/social-media-icons.png",
+          img:"https://dizzi.netlify.app/images/social-media-icons.png",
           desc:"Better Reach Better Leads, Be Socially Available"
         },
         {
           highlight:"Brand Awareness",
-          img:"http://192.168.1.4:3000/images/strategy.png",
+          img:"https://dizzi.netlify.app/images/strategy.png",
           desc:"Be Loud Sounds Good, Showcase You Products to World"
         },
       ]
