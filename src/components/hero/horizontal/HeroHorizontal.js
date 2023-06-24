@@ -2,7 +2,7 @@ import React from 'react'
 import "./HeroHorizontal.css"
 import HeroText from '../HeroText'
 import Vector from  "../../layout/vector/Vector"
-function HeroHorizontal() {
+function HeroHorizontal({data}) {
     const vectorHeroTopLeft = {
         src : "https://dizzi.netlify.app/images/green-left-top.svg",
         height: "360px",
@@ -37,20 +37,20 @@ function HeroHorizontal() {
         <Vector vectorData={vectorHeroLeftBottom}/>
         <div className='container'>
             <div className='heroHorizontal row mt-5'>
-                <HeroText style={{Zindex:"9999"}}  orientation={{
+                <HeroText data={data.heroText} style={{Zindex:"9999"}}  orientation={{
                     main : "col-12 text-center",
                     content : "w-75 m-auto mt-3"
                 }} />
                 <div className="col-12 heroHorizontalImages">
                     <div className="row w-75 m-auto gap-3 gap-sm-0">
                         <div className="col-sm-4">
-                            <img src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
+                            <img src={data.heroImages[0]} alt="" srcSet="" />
                         </div>
                         <div className="col-sm-4 pt-0 pt-sm-5">
-                            <img className='pt-o pt-sm-5' src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
+                            <img className='pt-o pt-sm-5' src={data.heroImages[1]} alt="" srcSet="" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="https://dizzi.netlify.app/images/bulb.png" alt="" srcSet="" />
+                            <img src={data.heroImages[2]} alt="" srcSet="" />
                         </div>
                     </div>
                 </div>

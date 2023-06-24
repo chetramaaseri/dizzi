@@ -2,7 +2,7 @@ import React from 'react'
 import "./Services.css"
 import Grid4 from './Grid4/Grid4'
 import Vector from '../layout/vector/Vector'
-function Services() {
+function Services({data}) {
   const vectorServicesRight = {
     src : "https://dizzi.netlify.app/images/skyblue-right.svg",
     height: "560px",
@@ -28,12 +28,12 @@ function Services() {
       <div className="container">
         <div className='row services my-5 px-0 px-md-5 gap-5 gap-md-0'>
             <div className="servicesLeft col-md-6">
-                <span className='highlight'>WHAT WE DO</span>
-                <h2 className='highlightHeading'>We are Team of<br></br> Super Experienced <br></br> Hi MAn</h2>
+                <span className='highlight'>{data.textContent.highlight}</span>
+                <h2 className='highlightHeading' dangerouslySetInnerHTML={{ __html: data.textContent.title }} />
             </div>
             <div className="col-md-6">
-              <Grid4 orientation={{
-                main : "d-flex flex-column text-center text-sm-start gap-5 d-sm-grid"
+              <Grid4 data={data.grid} orientation={{
+                main : "d-flex flex-column justify-content-center text-center text-sm-start gap-5 d-sm-grid"
               }}/>
             </div>
         </div>

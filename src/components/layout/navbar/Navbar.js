@@ -23,7 +23,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
       <div className="container">
         <span className="navbar-brand" style={{zIndex:"99999"}}>
-          Dizzibooster
+          Dizzi
         </span>
         <button
           className="navbar-toggler"
